@@ -1,10 +1,7 @@
-
-import random
 from itertools import count
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
-from mpl_toolkits.mplot3d import Axes3D
 
 plt.style.use('fivethirtyeight')
 
