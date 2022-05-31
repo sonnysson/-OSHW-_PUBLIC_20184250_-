@@ -1,12 +1,6 @@
 import serial
 import time
-import math
-import numpy as np
 import minimalmodbus as M
-import requests
-import paho.mqtt.client as mqtt
-from flask import Flask
-app = Flask(__name__)
 
 mydev = "/dev/ttyUSB0"
 ser = serial.Serial(mydev,921600)
@@ -31,7 +25,7 @@ def IMU():
             data = data.decode('utf-8')
             f = open('rpidata.txt','w')
             datas = data.split(",")
-            roll = datas[1]dg
+            roll = datas[1]
             pitch = datas[2]
             yaw = datas[3]
 
