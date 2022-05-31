@@ -1,6 +1,5 @@
 import socket
 
-
 # 접속할 서버 주소입니다. 여기에서는 루프백(loopback) 인터페이스 주소 즉 localhost를 사용합니다. 빈문자열 가능
 
 HOST = ''
